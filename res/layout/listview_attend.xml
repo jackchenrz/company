@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/imgAttHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_launcher"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tvAttUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgAttHead"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/imgAttHead"
+        android:text="大幂幂" />
+
+    <ImageView
+        android:id="@+id/imgAttEvent"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/imgAttHead"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvAttTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgAttEvent"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/imgAttEvent"
+        android:text="北京三里屯放肆现场Party" />
+
+    <TextView
+        android:id="@+id/tvAttAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAttTitle"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imgAttEvent"
+        android:text="地址" />
+
+    <TextView
+        android:id="@+id/tvAttTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAttAddress"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imgAttEvent"
+        android:text="时间" />
+   
+    <Button 
+        android:id="@+id/btnAdmission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_below="@id/imgAttEvent"
+        android:text="我的入场券"
+        />
+
+</RelativeLayout>

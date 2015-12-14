@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView 
+        android:id="@+id/imgDynHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/tvDynUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgDynHead"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgDynHead"
+        android:text="大幂幂" />
+
+    <TextView
+        android:id="@+id/tvDynGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgDynHead"
+        android:layout_alignLeft="@+id/tvDynUserName"
+        android:textColor="#65DDB1"
+        android:text="杀人游戏" />
+    
+    <TextView 
+        android:id="@+id/tvDynMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgDynHead"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="骚年好哇,玩杀人游戏被这几个神人给虐了!"
+        />
+
+    <ImageView
+        android:id="@+id/imgDyn1"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/tvDynMessage"
+        android:layout_below="@+id/tvDynMessage"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_launcher" />
+    
+</RelativeLayout>
